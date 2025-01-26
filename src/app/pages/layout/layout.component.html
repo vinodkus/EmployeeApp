@@ -1,1 +1,17 @@
-<p>layout works!</p>
+<div class="d-flex">
+  <!-- Vertical Navbar -->
+  <div class="vertical-nav">
+    <div class="logo">MyApp</div>
+    <a class="nav-link" routerLink="/dashboard" routerLinkActive="active">
+      <i class="bi bi-house icon"></i> Dashboard
+    </a>
+    <a class="nav-link" routerLink="/employee" routerLinkActive="active">
+      <i class="bi bi-people icon"></i> Employee
+    </a>
+  </div>
+
+  <!-- Main Content -->
+  <div class="p-4 flex-grow-1">
+    <router-outlet></router-outlet> <!-- This is where child content will render -->
+  </div>
+</div>

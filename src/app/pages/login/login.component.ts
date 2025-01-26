@@ -22,7 +22,7 @@ export class LoginComponent {
     debugger;
     this.http
       .post(
-        'https://projectapi.gerasim.in​/api​/EmployeeManagement​/login',
+        'https://projectapi.gerasim.in/api/EmployeeManagement/login',
         this.loginObj
       )
       .subscribe((res: any) => {
