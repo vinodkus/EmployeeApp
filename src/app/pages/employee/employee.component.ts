@@ -4,11 +4,10 @@ import { MasterService } from './../../services/master.service';
 import { Component, inject, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-employee',
-  standalone: true,
-  imports: [],
-  templateUrl: './employee.component.html',
-  styleUrl: './employee.component.css'
+    selector: 'app-employee',
+    imports: [],
+    templateUrl: './employee.component.html',
+    styleUrl: './employee.component.css'
 })
 export class EmployeeComponent implements OnInit {
   parentDeptList:IparentDept[]=[];

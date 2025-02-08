@@ -1,3 +1,6 @@
 https://projectapi.gerasim.in/index.html
 hradmin@gmail.com
 112233
+
+Run this project on this command becuase its external api will only work on this command only
+ng serve -port 4209 -o 
