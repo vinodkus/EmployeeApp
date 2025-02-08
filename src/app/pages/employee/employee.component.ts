@@ -1,3 +1,4 @@
+// import { CommonModule } from '@angular/common'; // Add this import
 import { IApiResponse, IparentDept } from '../../model/Employee';
 import { MasterService } from './../../services/master.service';
 import { Component, inject, OnInit } from '@angular/core';

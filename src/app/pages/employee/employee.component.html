@@ -61,7 +61,8 @@
               <select class="form-select" id="deptId">
                 <option selected>Select Department</option>
                 @for (item of parentDeptList; track $index) {
-                    <option [value]="item.departmentId"]>{{item.departmentName}}</option>
+                  debugger;
+                    <option [value]="item.departmentId">{{item.departmentName}}</option>
                 }
                 
               </select>
